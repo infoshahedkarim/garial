@@ -14,7 +14,7 @@
                     <div class="row">
                         <!-- Image -->
                         <div class="col-lg-6 position-lg-absolute right-half h-100">
-                            <div class="image" data-bgimage="url(images/misc/s1.webp) center"></div>
+                            <div class="image" data-bgimage="url({{ asset('assets/images/misc/s1.webp') }}) center"></div>
                         </div>
                         <!-- Text -->
                         <div class="col-lg-6">
@@ -79,7 +79,7 @@
         </section>
 
         <section class="bg-dark-2 jarallax">
-            <img src="images/background/1.webp" class="jarallax-img" alt="">
+            <img src="{{ asset('assets/images/background/1.webp') }}" class="jarallax-img" alt="">
             <div class="sw-overlay"></div>
             <div class="container relative z-2">
                 <div class="row g-4 justify-content-center">
@@ -140,8 +140,8 @@
 
                     <div class="col-lg-6">
                         <div class="twentytwenty-container rounded-1">
-                            <img src="images/before-after/1b.webp" alt="" class="img-responsive">
-                            <img src="images/before-after/1a.webp" alt="" class="img-responsive">
+                            <img src="{{ asset('assets/images/before-after/1b.webp') }}" alt="" class="img-responsive">
+                            <img src="{{ asset('assets/images/before-after/1a.webp') }}" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
