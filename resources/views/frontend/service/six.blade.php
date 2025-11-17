@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-    Home Page
+    যোগাযোগ করুন
 @endsection
 @section('content')
     <!-- content begin -->
@@ -8,29 +8,36 @@
 
         <div id="top"></div>
 
+        {{-- HERO SECTION --}}
         <section class="no-top no-bottom overflow-hidden">
             <div class="container-fluid position-relative half-fluid">
                 <div class="container">
                     <div class="row">
                         <!-- Image -->
                         <div class="col-lg-6 position-lg-absolute right-half h-100">
+                            {{-- এখানে কাস্টমার সাপোর্ট / কল সেন্টার / চ্যাট সাপোর্ট সম্পর্কিত ইমেজ দিতে পারেন --}}
                             <div class="image" data-bgimage="url({{ asset('assets/images/misc/s1.webp') }}) center"></div>
                         </div>
                         <!-- Text -->
                         <div class="col-lg-6">
                             <div class="pt-lg-5 mt-lg-5 me-lg-3">
                                 <div class="py-5 mt-5 mb-3 me-lg-3">
-                                    <div class="subtitle id-color wow fadeInUp" data-wow-delay=".0s">Ceramic Coating
-                                        Protection</div>
-                                    <h1 class="wow fadeInUp" data-wow-delay=".2s">Long-lasting protection and gloss</h1>
-                                    <p class="col-lg-10 wow fadeInUp" data-wow-delay=".4s">Ceramic Coating Protection is the
-                                        ultimate solution for preserving your vehicle’s paintwork. This high-performance
-                                        coating bonds with your car’s surface, creating a hydrophobic layer that repels
-                                        water, dirt, and environmental contaminants. It enhances gloss, resists oxidation,
-                                        and provides long-term protection that far outperforms traditional wax.</p>
+                                    <div class="subtitle id-color wow fadeInUp" data-wow-delay=".0s">
+                                        Contact Us
+                                    </div>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".2s">
+                                        যে কোনো সময়, যে কোনো প্রশ্নে — আমরা আছি পাশে
+                                    </h1>
+                                    <p class="col-lg-10 wow fadeInUp" data-wow-delay=".4s">
+                                        সার্ভিস বুকিং, তথ্য জানা, সমস্যা সমাধান বা জরুরি ওয়ার্কশপ হেল্প—যে কারণেই হোক,
+                                        এক কল, এক মেসেজ বা এক ইমেইলেই আমাদের সাপোর্ট টিম আপনার পাশে। দ্রুত রেসপন্স, পরিষ্কার
+                                        গাইডলাইন এবং ঝামেলামুক্ত যোগাযোগ—এটাই আমাদের অঙ্গীকার।
+                                    </p>
 
                                     <a class="btn-main mb10 mb-3 wow fadeInUp" data-wow-delay=".6s"
-                                        href="contact.html"><span>Book Detailing</span></a>
+                                       href="tel:+8801XXXXXXXXX"><span>এখনই কল করুন</span></a>
+                                    <a class="btn-main btn-line mb10 mb-3 wow fadeInUp" data-wow-delay=".7s"
+                                       href="mailto:info@example.com"><span>ইমেইল পাঠান</span></a>
                                 </div>
                             </div>
                         </div>
@@ -39,45 +46,48 @@
             </div>
         </section>
 
+        {{-- WHAT'S INCLUDED / BENEFITS / IDEAL FOR --}}
         <section>
             <div class="container">
                 <div class="row g-4">
+                    {{-- What's Included --}}
                     <div class="col-md-4">
-                        <h3>What's Included</h3>
+                        <h3>কী কী অন্তর্ভুক্ত</h3>
                         <ul class="ul-check">
-                            <li>Full exterior wash and decontamination</li>
-                            <li>Clay bar treatment and surface prep</li>
-                            <li>Light paint correction (as needed)</li>
-                            <li>Application of professional-grade ceramic coating</li>
-                            <li>Final inspection and gloss enhancement</li>
+                            <li>ফোন / ইমেইল সাপোর্ট</li>
+                            <li>অ্যাপয়েন্টমেন্ট বুকিং</li>
+                            <li>সার্ভিস–সম্পর্কিত বিস্তারিত তথ্য</li>
+                            <li>অভিযোগ ও ফিডব্যাক সাপোর্ট</li>
+                            <li>জরুরি ওয়ার্কশপ হেল্প</li>
                         </ul>
                     </div>
 
+                    {{-- Benefits --}}
                     <div class="col-md-4">
-                        <h3>Benefits</h3>
+                        <h3>সুবিধাসমূহ</h3>
                         <ul class="ul-check">
-                            <li>Repels water, dirt, and grime</li>
-                            <li>Protects against UV damage and oxidation</li>
-                            <li>Makes washing easier and less frequent</li>
-                            <li>Enhances and deepens your car’s shine</li>
-                            <li>Lasts up to 2–5 years with proper maintenance</li>
+                            <li>দ্রুত রেসপন্স ও সহায়তা</li>
+                            <li>প্রায় যে কোনো সময় যোগাযোগের সুবিধা</li>
+                            <li>আপনার সমস্যার সঠিক ও বাস্তবসম্মত সমাধান</li>
+                            <li>সার্ভিস বুকিং আরও সহজ ও ঝামেলামুক্ত</li>
                         </ul>
                     </div>
 
+                    {{-- Ideal For --}}
                     <div class="col-md-4">
-                        <h3>Ideal For</h3>
+                        <h3>যাদের জন্য উপযুক্ত</h3>
                         <ul class="ul-check">
-                            <li>Daily drivers exposed to the elements</li>
-                            <li>Show cars or vehicles with custom paintwork</li>
-                            <li>Clients seeking a “just waxed” look year-round</li>
-                            <li>New car for long-term paint protection</li>
-                            <li>Luxury vehicle owners looking for premium care</li>
+                            <li>নতুন গ্রাহক যারা সার্ভিস সম্পর্কে জানতে চান</li>
+                            <li>সার্ভিস বুকিং করতে আগ্রহী গ্রাহক</li>
+                            <li>রিপোর্ট বা আপডেট জানতে চান যারা</li>
+                            <li>সমস্যা / অভিযোগ জানাতে চান যারা</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
+        {{-- HOW IT WORKS --}}
         <section class="bg-dark-2 jarallax">
             <img src="{{ asset('assets/images/background/1.webp') }}" class="jarallax-img" alt="">
             <div class="sw-overlay"></div>
@@ -85,77 +95,95 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-12 text-center">
                         <div class="subtitle">Steps</div>
-                        <h2>How It Works</h2>
+                        <h2>যেভাবে আমরা সাপোর্ট দেই</h2>
+                    </div>
+
+                    <div class="col-6 col-md-3 de-step de-step-arrow">
+                        <div class="de-step-icon bg-color">
+                            <i class="fas fa-phone-alt fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold">১. কল / মেসেজ করুন</h4>
+                        <p>ফোন, ইমেইল বা মেসেজের মাধ্যমে আপনার সমস্যা বা প্রয়োজন আমাদের জানান।</p>
                     </div>
 
                     <div class="col-6 col-md-3 de-step de-step-arrow">
                         <div class="de-step-icon bg-color">
                             <i class="fas fa-search fa-2x"></i>
                         </div>
-                        <h4 class="fw-bold">Vehicle Inspection & Prep</h4>
-                        <p>We inspect the paint and prep your vehicle with a deep wash and decontamination for optimal
-                            coating adhesion.</p>
+                        <h4 class="fw-bold">২. বিষয় যাচাই</h4>
+                        <p>আমাদের সাপোর্ট টিম আপনার দেওয়া তথ্য বিশ্লেষণ করে মূল বিষয়টি পরিষ্কারভাবে বুঝে নেয়।</p>
                     </div>
 
                     <div class="col-6 col-md-3 de-step de-step-arrow">
                         <div class="de-step-icon bg-color">
-                            <i class="fas fa-paint-brush fa-2x"></i>
+                            <i class="fas fa-headset fa-2x"></i>
                         </div>
-                        <h4 class="fw-bold">Paint Correction</h4>
-                        <p>Swirls, scratches, and imperfections are polished out to restore a flawless base before coating
-                            begins.</p>
+                        <h4 class="fw-bold">৩. সাপোর্ট / সমাধান প্রদান</h4>
+                        <p>সম্ভব দ্রুত সময়ের মধ্যে প্রয়োজনীয় সাপোর্ট, নির্দেশনা বা সমাধানের পথ জানিয়ে দেওয়া হয়।</p>
                     </div>
 
                     <div class="col-6 col-md-3 de-step de-step-arrow">
                         <div class="de-step-icon bg-color">
-                            <i class="fas fa-spray-can fa-2x"></i>
+                            <i class="fas fa-calendar-check fa-2x"></i>
                         </div>
-                        <h4 class="fw-bold">Ceramic Application</h4>
-                        <p>We apply premium ceramic coating to all exterior surfaces, bonding it to the paint for long-term
-                            protection.</p>
+                        <h4 class="fw-bold">৪. বুকিং কনফার্মেশন</h4>
+                        <p>সার্ভিসের প্রয়োজন হলে বুকিং কনফার্মেশন, তারিখ ও সময় জানিয়ে দেওয়া হয়।</p>
                     </div>
 
                     <div class="col-6 col-md-3 de-step">
                         <div class="de-step-icon bg-color">
-                            <i class="fas fa-check-circle fa-2x"></i>
+                            <i class="fas fa-route fa-2x"></i>
                         </div>
-                        <h4 class="fw-bold">Curing & Final Inspection</h4>
-                        <p>After curing, we inspect the finish to ensure uniform gloss, durability, and maximum hydrophobic
-                            effect.</p>
+                        <h4 class="fw-bold">৫. পরবর্তী গাইডলাইন</h4>
+                        <p>পরবর্তী করণীয়, ফলো-আপ বা ওয়ার্কশপ ভিজিট–সবকিছুর জন্য পরিষ্কার গাইডলাইন দেওয়া হয়।</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        {{-- SIMPLE CONTACT BLOCK / CTA --}}
         <section>
             <div class="container">
                 <div class="row g-4 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="subtitle">Real Results</div>
-                        <h2>Before & After Transformation</h2>
-                        <p>See the dramatic difference ceramic coating makes—restoring clarity, depth, and shine while
-                            adding a durable layer of protection. Every detail counts, and the results speak for themselves.
+                    <div class="col-lg-7">
+                        <div class="subtitle">Support</div>
+                        <h2>যে সমস্যাই হোক, আগে আমাদের সাথে কথা বলুন</h2>
+                        <p>
+                            আপনার গাড়ি, সার্ভিস, বুকিং, পেমেন্ট বা অন্য কোনো বিষয় নিয়ে প্রশ্ন থাকলে দ্বিধা না করে
+                            সরাসরি আমাদের সাথে যোগাযোগ করুন। একবার কথা বললেই বুঝতে পারবেন, সঠিক গাইডলাইন পাওয়া
+                            কতটা সহজ হতে পারে।
                         </p>
+                        <ul class="ul-check">
+                            <li>জরুরিভাবে ওয়ার্কশপ স্লট দরকার?</li>
+                            <li>সার্ভিস প্যাকেজ সম্পর্কে জানতে চান?</li>
+                            <li>আগের সার্ভিস নিয়ে ফিডব্যাক দিতে চান?</li>
+                            <li>কাস্টম সল্যুশন বা কর্পোরেট সাপোর্ট চান?</li>
+                        </ul>
                     </div>
-
-                    <div class="col-lg-6">
-                        <div class="twentytwenty-container rounded-1">
-                            <img src="{{ asset('assets/images/before-after/1b.webp') }}" alt="" class="img-responsive">
-                            <img src="{{ asset('assets/images/before-after/1a.webp') }}" alt="" class="img-responsive">
+                    <div class="col-lg-5">
+                        <div class="card bg-dark-2 text-light border-0 p-4 rounded-1">
+                            <h4 class="mb-3">দ্রুত যোগাযোগ</h4>
+                            <p class="mb-2"><strong>ফোন:</strong> <a href="tel:+8801XXXXXXXXX" class="text-light">+8801XXXXXXXXX</a></p>
+                            <p class="mb-2"><strong>ইমেইল:</strong> <a href="mailto:info@example.com" class="text-light">info@example.com</a></p>
+                            <p class="mb-3"><strong>ওয়ার্কশপ টাইম:</strong> সকাল ৯টা – রাত ১০টা</p>
+                            <a class="btn-main fx-slide w-100" href="{{ route('contact') ?? '#' }}">
+                                <span>অনলাইন ফর্ম পূরণ করুন</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        {{-- FINAL CTA --}}
         <section class="bg-color text-light pt-60 pb-50">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-md-9">
-                        <h3 class="mb-0 fs-32">Want your car to shine like new again?</h3>
+                        <h3 class="mb-0 fs-32">আপনার প্রশ্ন আছে? এখনই আমাদের সাথে যোগাযোগ করুন।</h3>
                     </div>
                     <div class="col-lg-3 text-lg-end">
-                        <a class="btn-main fx-slide btn-line" href="#"><span>Make Appointment</span></a>
+                        <a class="btn-main fx-slide btn-line" href="tel:+8801XXXXXXXXX"><span>এখনই কল করুন</span></a>
                     </div>
                 </div>
             </div>

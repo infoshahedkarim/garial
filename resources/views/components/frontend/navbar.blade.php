@@ -41,12 +41,20 @@
                          <!-- mainemenu begin -->
 
                          <ul id="mainmenu">
-                             <li><a class="menu-item" href="{{route('home')}}">Home</a>
+                             <li><a class="menu-item" href="{{ route('home') }}">Home</a>
                              </li>
-                             <li><a class="menu-item" href="{{route('service')}}">Services</a>
+                             <li><a class="menu-item" href="{{ route('service') }}">Services</a>
+                                 <ul>
+                                     <li><a href="{{ route('service.one') }}">Workshop</a></li>
+                                     <li><a href="{{ route('service.two') }}">Rent a Car</a></li>
+                                     <li><a href="{{ route('service.three') }}">Driving Training</a></li>
+                                     <li><a href="{{ route('service.four') }}">Buy and Sell</a></li>
+                                     <li><a href="{{ route('service.five') }}">Part Time Driver</a></li>
+                                     <li><a href="{{ route('service.six') }}">Contact Us</a></li>
+                                 </ul>
                              </li>
-                             <li><a class="menu-item" href="{{route('service')}}">Blog</a></li>
-                             <li><a class="menu-item" href="{{route('service')}}">Workshop</a>
+                             <li><a class="menu-item" href="{{ route('service') }}">Blog</a></li>
+                             <li><a class="menu-item" href="{{ route('service') }}">Workshop</a>
                              </li>
                          </ul>
 

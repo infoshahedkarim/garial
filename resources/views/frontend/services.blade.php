@@ -31,22 +31,24 @@
             <div class="container">
 
                 <div class="row g-4">
-
                     <!-- service item begin -->
                     <div class="col-lg-4 col-sm-6">
                         <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                             data-wow-delay=".0s">
-                            <img src="{{ asset('assets/images/services/1.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                            <img src="{{ asset('assets/images/services/1.webp') }}" class="hover-scale-1-1 w-100"
+                                alt="">
                             <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">Gentle yet thorough hand wash using pH-balanced soaps, followed by
-                                    premium wax to protect your paint and enhance shine. Keeps your car sparkling and
-                                    protected from the elements.</div>
-                                <a class="btn-main fx-slide" href="service-single.html"><span>View Details</span></a>
+                                <div class="mb-3">
+                                    আপনার গাড়ির মেকানিক্যাল, ইলেকট্রিক্যাল এবং বডি-সংক্রান্ত সব কাজ দক্ষ টেকনিশিয়ানদের
+                                    তত্ত্বাবধানে করা হয়।
+                                </div>
+                                <a class="btn-main fx-slide" href="{{ route('service.one') }}"><span>বিস্তারিত জানুন
+                                        </span></a>
                             </div>
                             <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">01</h3>
                             <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
                             <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">Exterior Hand Wash & Wax</h4>
+                                <h4 class="mb-3">ওয়ার্কশপ</h4>
                             </div>
                             <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
                         </div>
@@ -57,17 +59,19 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                             data-wow-delay=".2s">
-                            <img src="{{ asset('assets/images/services/2.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                            <img src="{{ asset('assets/images/services/2.webp') }}" class="hover-scale-1-1 w-100"
+                                alt="">
                             <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">From carpets to headliners, we extract every trace of dirt and odor. Our
-                                    steam and shampoo treatment leaves your cabin fresh, sanitized, and looking like new
-                                    inside.</div>
-                                <a class="btn-main fx-slide" href="service-single.html"><span>View Details</span></a>
+                                <div class="mb-3">
+                                    সাশ্রয়ী ভাড়া, নিরাপদ যাত্রা, বিভিন্ন মডেলের নির্ভরযোগ্য গাড়ি—চাহিদা অনুযায়ী সার্ভিস।
+                                </div>
+                                <a class="btn-main fx-slide" href="{{ route('service.two') }}"><span>বিস্তারিত জানুন
+                                        </span></a>
                             </div>
                             <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">02</h3>
                             <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
                             <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">Interior Deep Cleaning</h4>
+                                <h4 class="mb-3">রেন্ট এ কার</h4>
                             </div>
                             <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
                         </div>
@@ -78,17 +82,20 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                             data-wow-delay=".4s">
-                            <img src="{{ asset('assets/images/services/3.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                            <img src="{{ asset('assets/images/services/3.webp') }}" class="hover-scale-1-1 w-100"
+                                alt="">
                             <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">Buff away swirl marks, scratches, and dullness. We restore clarity and
-                                    depth with multi-stage machine polishing that revives your paint’s original brilliance.
+                                <div class="mb-3">
+                                    প্রশিক্ষিত ইনস্ট্রাক্টর, নিয়মিত ক্লাস, সম্পূর্ণ ড্রাইভিং শিক্ষা—লেডিজ/জেন্টসের জন্য
+                                    আলাদা ব্যাচ।
                                 </div>
-                                <a class="btn-main fx-slide" href="service-single.html"><span>View Details</span></a>
+                                <a class="btn-main fx-slide" href="{{ route('service.three') }}"><span>বিস্তারিত জানুন
+                                        </span></a>
                             </div>
                             <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">03</h3>
                             <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
                             <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">Paint Correction</h4>
+                                <h4 class="mb-3">ড্রাইভিং প্রশিক্ষণ</h4>
                             </div>
                             <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
                         </div>
@@ -99,17 +106,19 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                             data-wow-delay=".6s">
-                            <img src="{{ asset('assets/images/services/4.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                            <img src="{{ asset('assets/images/services/4.webp') }}" class="hover-scale-1-1 w-100"
+                                alt="">
                             <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">Add years of protection with hydrophobic ceramic coating. Shields
-                                    against UV rays, dirt, and scratches—making your car easier to clean and stay glossy
-                                    longer.</div>
-                                <a class="btn-main fx-slide" href="service-single.html"><span>View Details</span></a>
+                                <div class="mb-3">
+                                    পরীক্ষিত ও যাচাইকৃত ব্যবহৃত গাড়ি। প্রতিটি গাড়ির পূর্ণ রিপোর্ট প্রদান করা হয়।
+                                </div>
+                                <a class="btn-main fx-slide" href="{{ route('service.four') }}"><span>বিস্তারিত জানুন
+                                        </span></a>
                             </div>
                             <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">04</h3>
                             <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
                             <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">Ceramic Coating Protection</h4>
+                                <h4 class="mb-3">ব্যবহৃত গাড়ি কেনা/বিক্রি</h4>
                             </div>
                             <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
                         </div>
@@ -120,17 +129,19 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                             data-wow-delay=".8s">
-                            <img src="{{ asset('assets/images/services/5.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                            <img src="{{ asset('assets/images/services/5.webp') }}" class="hover-scale-1-1 w-100"
+                                alt="">
                             <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">We degrease and shine your engine bay for a professional finish. It’s
-                                    not just for aesthetics—engine cleaning helps with resale and easier maintenance checks.
+                                <div class="mb-3">
+                                    দক্ষ ড্রাইভার নিয়োগ সেবা—ভেরিফাইড, নিয়মিত মনিটরিংসহ।
                                 </div>
-                                <a class="btn-main fx-slide" href="service-single.html"><span>View Details</span></a>
+                                <a class="btn-main fx-slide" href="{{ route('service.five') }}"><span>বিস্তারিত জানুন
+                                        </span></a>
                             </div>
                             <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">05</h3>
                             <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
                             <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">Engine Bay Detailing</h4>
+                                <h4 class="mb-3">খণ্ডকালীন ড্রাইভার নিয়োগ</h4>
                             </div>
                             <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
                         </div>
@@ -141,23 +152,24 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                             data-wow-delay="1.0s">
-                            <img src="{{ asset('assets/images/services/6.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                            <img src="{{ asset('assets/images/services/6.webp') }}" class="hover-scale-1-1 w-100"
+                                alt="">
                             <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">Cloudy headlights are unsafe and ugly. We sand, polish, and seal them
-                                    so they shine bright and clear again, improving visibility and your car’s overall look.
+                                <div class="mb-3">
+                                    আপনার যেকোনো প্রশ্ন বা সার্ভিস বুকিংয়ের জন্য আমাদের সাথে কথা বলুন।
                                 </div>
-                                <a class="btn-main fx-slide" href="service-single.html"><span>View Details</span></a>
+                                <a class="btn-main fx-slide" href="{{ route('service.six') }}"><span>বিস্তারিত জানুন
+                                        </span></a>
                             </div>
                             <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">06</h3>
                             <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
                             <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">Headlight Restoration</h4>
+                                <h4 class="mb-3">যোগাযোগ করুন</h4>
                             </div>
                             <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
                         </div>
                     </div>
                     <!-- service item end -->
-
                 </div>
 
             </div>
