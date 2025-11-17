@@ -166,7 +166,7 @@
                             <p class="mb-2"><strong>ফোন:</strong> <a href="tel:+8801XXXXXXXXX" class="text-light">+8801XXXXXXXXX</a></p>
                             <p class="mb-2"><strong>ইমেইল:</strong> <a href="mailto:info@example.com" class="text-light">info@example.com</a></p>
                             <p class="mb-3"><strong>ওয়ার্কশপ টাইম:</strong> সকাল ৯টা – রাত ১০টা</p>
-                            <a class="btn-main fx-slide w-100" href="{{ route('contact') ?? '#' }}">
+                            <a class="btn-main fx-slide w-100" href="{{ route('service.six') ?? '#' }}">
                                 <span>অনলাইন ফর্ম পূরণ করুন</span>
                             </a>
                         </div>

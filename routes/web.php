@@ -32,7 +32,7 @@ Route::get('/services-five', function () {
     return view('frontend.service.five');
 })->name('service.five');
 
-Route::get('/services-six', function () {
+Route::get('/contact', function () {
     return view('frontend.service.six');
 })->name('service.six');
 
