@@ -30,7 +30,7 @@
                      <div class="de-flex-col">
                          <!-- logo begin -->
                          <div id="logo">
-                             <a href="index.html">
+                             <a href="{{route('home')}}">
                                  <img class="logo-main" src="{{asset('assets/images/logo-white.webp')}}" alt="">
                                  <img class="logo-mobile" src="{{asset('assets/images/logo-mobile.webp')}}" alt="">
                              </a>
