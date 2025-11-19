@@ -3,7 +3,7 @@
 @extends('layouts.frontend')
 
 @section('title')
-    আলটিমেট গাড়ির বিস্তারিত বিবরণ সেবা
+    Appointment
 @endsection
 
 @section('content')
@@ -13,7 +13,7 @@
             <div id="top"></div>
 
             <section class="jarallax">
-                <img src="images/background/1.webp" class="jarallax-img" alt="">
+                <img src="{{asset('assets/images/background/1.webp')}}" class="jarallax-img" alt="">
                 <div class="container relative z-2">
                     <div class="spacer-single xs-hide"></div>
                     <div class="row g-4 justify-content-center align-items-center">
@@ -23,7 +23,7 @@
                                 <div id="success_message_col" class='success text-light p-40 h-100'>
                                     <h3>Thank You For Your Order</h3>
                                     <p>We have received your request and will be processing it shortly. Click button below if you want to make another order.</p>
-                                    <a class="btn-main" href="appointment.html">Re-order</a>
+                                    <a class="btn-main" href="{{route('appointment')}}">Re-order</a>
                                 </div>
 
                                 <form name="bookingForm" id="booking_form" class="relative z1000 bg-dark text-light rounded-1 p-40" method="post" action="booking.php">
