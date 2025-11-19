@@ -10,322 +10,330 @@
         <div id="top"></div>
 
         <section class="text-light no-top no-bottom relative overflow-hidden">
-            <div class="mh-700">
-                <div class="abs w-100 bottom-0 z-2 pb-4">
-                    <div class="container">
-                        <div class="row g-4 justify-content-between align-items-bottom">
-                            <div class="col-lg-8">
-                                <div class="sw-text-wrapper">
-                                    <div class="subtitle wow fadeInUp">গাড়ির বিস্তারিত পরিষেবা</div>
-                                    <h1 class="fs-72 fs-xs-10vw text-uppercase wow fadeInUp">
-                                        কম খরচে <span class="id-color">প্রিমিয়াম কেয়ার—সেরা সার্ভিস,</span> সবসময়।
-                                    </h1>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3">
-                                <div class="spacer-double"></div>
-                                <p class="mb-0 wow fadeInUp" data-wow-delay=".2s">
-                                    গাড়ি য়াল—নামে ভরসা, কাজে আস্থা। আমরা নি শ্চি ত করি আপনার গাড়ি র প্রতি টি অংশে র সঠিক ডায়াগনস্টি ক, ফি ক্সি ং
-এবং প্রি মি য়াম ডি টে ইলি ং সাপ োর্ট।
-আজ, আপনার গাড়ি আমাদে র দায়ি ত্ব। নি শ্চি ন্ত থাকুন।
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="swiper-inner" data-bgimage="url({{ asset('assets/images/slider/1.webp') }})">
-                                <div class="gradient-edge-top h-20 op-5"></div>
-                                <div class="gradient-edge-bottom h-50"></div>
-                                <div class="sw-overlay op-6"></div>
-                            </div>
-                        </div>
-
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="swiper-inner" data-bgimage="url({{ asset('assets/images/slider/2.webp') }})">
-                                <div class="gradient-edge-top h-20 op-5"></div>
-                                <div class="gradient-edge-bottom h-50"></div>
-                                <div class="sw-overlay op-6"></div>
-                            </div>
-                        </div>
-
-                        <!-- Slides (example commented)
-                                <div class="swiper-slide">
-                                    <div class="swiper-inner" data-bgimage="url({{ asset('assets/images/slider/3.webp') }})">
-                                        <div class="gradient-edge-top h-20 op-5"></div>
-                                        <div class="gradient-edge-bottom h-50"></div>
-                                        <div class="sw-overlay op-6"></div>
-                                    </div>
-                                </div>
-                                -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="pb-0">
-            <div class="container relative z-1">
-                <div class="row g-4 gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="row g-4">
-                            <div class="col-sm-6">
-                                <div class="row g-4">
-                                    <div class="col-lg-12">
-                                        <div class="rounded-1 overflow-hidden wow zoomIn">
-                                            <img src="{{ asset('assets/images/misc/p1.webp') }}" class="w-100 wow scaleIn"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="row g-4">
-                                    <div class="spacer-single sm-hide"></div>
-                                    <div class="col-lg-12">
-                                        <div class="rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
-                                            <img src="{{ asset('assets/images/misc/p2.webp') }}" class="w-100 wow scaleIn"
-                                                alt="" data-wow-delay=".3s">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="subtitle wow fadeInUp" data-wow-delay=".2s">About Us</div>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">ভেতরে ও বাইরে স্থায়ী উজ্জ্বলতা পুনরুদ্ধার করা</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">
-                            শহরে র ক োলাহল যে ন ো গাড়ি র উপরই পড়ে —ধুল ো, ময়লা, স্ক্র্যাচ, অক্সি ডে শন।
-গাড়ি য়াল-এ আমরা আপনার গাড়ি র ভে তর–বাইরে র সম্পর্ণূর্ণডি টে ইলি ং থে কে শুরু করে পে ইন্ট করে কশন পর্যন্ত সবকি ছু
-করি আধুনি ক প্রযুক্তি ও দক্ষ টে কনি শি য়ানে র মাধ্যমে ।
-আপনার গাড়ি র আসল স ৌন্দর্য ফি রি য়ে আনাই আমাদে র মলূ লক্ষ্য।
-                        </p>
-                        <a class="btn-main fx-slide wow fadeInUp" href="{{ route('service') }}"
-                            data-wow-delay=".6s"><span>Read More</span></a>
-                    </div>
-                </div>
-
-                <div class="spacer-double"></div>
-
-                <div class="row g-4">
-                    <div class="col-md-3 col-6">
-                        <div class="de_count text-center wow fadeInRight" data-wow-delay=".0s">
-                            <i class="id-color fs-40 d-inline-block mb-3 icofont-briefcase-2"></i>
-                            <h3 class="fs-40 mb-0 lh-1-1"><span class="timer" data-to="65250" data-speed="3000">0</span>+
-                            </h3>
-                            Hours of Works
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-6">
-                        <div class="de_count text-center wow fadeInRight" data-wow-delay=".2s">
-                            <i class="id-color fs-40 d-inline-block mb-3 icofont-thumbs-up"></i>
-                            <h3 class="fs-40 mb-0 lh-1-1"><span class="timer" data-to="23160" data-speed="3000">0</span>+
-                            </h3>
-                            Happy Customers
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-6">
-                        <div class="de_count text-center wow fadeInRight" data-wow-delay=".4s">
-                            <i class="id-color fs-40 d-inline-block mb-3 icofont-users-alt-3"></i>
-                            <h3 class="fs-40 mb-0 lh-1-1"><span class="timer" data-to="1500" data-speed="3000">0</span>+
-                            </h3>
-                            Experienced Workers
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-6">
-                        <div class="de_count text-center wow fadeInRight" data-wow-delay=".6s">
-                            <i class="id-color fs-40 d-inline-block mb-3 icofont-badge"></i>
-                            <h3 class="fs-40 mb-0 lh-1-1"><span class="timer" data-to="20" data-speed="3000">0</span>+
-                            </h3>
-                            Years of Experience
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="pb-80 jarallax" aria-label="section">
-            <img src="{{ asset('assets/images/background/3.webp') }}" class="jarallax-img" alt="">
-            <div class="gradient-edge-top"></div>
-            <div class="sw-overlay"></div>
-            <div class="container relative z-2">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-10">
-                        <img src="{{ asset('assets/images/misc/c1.webp') }}" class="w-100" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-dark-2">
+    <div class="mh-700">
+        <div class="abs w-100 bottom-0 z-2 pb-4">
             <div class="container">
-                <div class="row g-4 justify-content-center mb-2">
-                    <div class="col-lg-6">
-                        <div class="text-center">
-                            <div class="subtitle">Welcome to Garial</div>
-                            <h2>গাড়িয়ালের সে বা</h2>
-                            <p>গাড়ি র অভ্যন্তরীণ পরি বে শ থে কে শুরু করে দীর্ঘস্থায়ী সি রামি ক আবরণ পর্যন্ত, আমরা আপনার গাড়ি টি নি খুতঁ ভাবে ঠিক
-করি ও পুনরুজ্জীবি ত করি ।</p>
+                <div class="row g-4 justify-content-between align-items-bottom">
+                    <div class="col-lg-8">
+                        <div class="sw-text-wrapper">
+                            <div class="subtitle wow fadeInUp">গাড়ির বিস্তারিত সার্ভিস</div>
+                            <h1 class="fs-72 fs-xs-10vw text-uppercase wow fadeInUp">
+                                কম খরচে <span class="id-color">প্রিমিয়াম কেয়ার—সেরা সার্ভিস,</span> সবসময়।
+                            </h1>
                         </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="spacer-double"></div>
+                        <p class="mb-0 wow fadeInUp" data-wow-delay=".2s">
+                            গাড়িয়াল—নামে ভরসা, কাজে আস্থা। আমরা নিশ্চিত করি আপনার গাড়ির প্রতিটি অংশের সঠিক
+                            ডায়াগনস্টিক, ফিক্সিং
+                            এবং প্রিমিয়াম ডিটেইলিং সাপোর্ট।
+                            আজ থেকে আপনার গাড়ির দায়িত্ব আমাদের; আপনি থাকুন নিশ্চিন্ত।
+                        </p>
                     </div>
                 </div>
-
-                <div class="row g-4">
-                    <!-- service item begin -->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
-                            data-wow-delay=".0s">
-                            <img src="{{ asset('assets/images/services/1.webp') }}" class="hover-scale-1-1 w-100"
-                                alt="">
-                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">
-                                    আপনার গাড়ির মেকানিক্যাল, ইলেকট্রিক্যাল এবং বডি-সংক্রান্ত সব কাজ দক্ষ টেকনিশিয়ানদের
-                                    তত্ত্বাবধানে করা হয়।
-                                </div>
-                                <a class="btn-main fx-slide" href="{{ route('service.one') }}"><span>বিস্তারিত জানুন
-                                    </span></a>
-                            </div>
-                            <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">01</h3>
-                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">ওয়ার্কশপ</h4>
-                            </div>
-                            <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-
-                    <!-- service item begin -->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
-                            data-wow-delay=".2s">
-                            <img src="{{ asset('assets/images/services/2.webp') }}" class="hover-scale-1-1 w-100"
-                                alt="">
-                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">
-                                    সাশ্রয়ী ভাড়া, নিরাপদ যাত্রা, বিভিন্ন মডেলের নির্ভরযোগ্য গাড়ি—চাহিদা অনুযায়ী সার্ভিস।
-                                </div>
-                                <a class="btn-main fx-slide" href="{{ route('service.two') }}"><span>বিস্তারিত জানুন
-                                    </span></a>
-                            </div>
-                            <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">02</h3>
-                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">রেন্ট এ কার</h4>
-                            </div>
-                            <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-
-                    <!-- service item begin -->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
-                            data-wow-delay=".4s">
-                            <img src="{{ asset('assets/images/services/3.webp') }}" class="hover-scale-1-1 w-100"
-                                alt="">
-                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">
-                                    প্রশিক্ষিত ইনস্ট্রাক্টর, নিয়মিত ক্লাস, সম্পূর্ণ ড্রাইভিং শিক্ষা—লেডিজ/জেন্টসের জন্য
-                                    আলাদা ব্যাচ।
-                                </div>
-                                <a class="btn-main fx-slide" href="{{ route('service.three') }}"><span>বিস্তারিত জানুন
-                                    </span></a>
-                            </div>
-                            <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">03</h3>
-                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">ড্রাইভিং প্রশিক্ষণ</h4>
-                            </div>
-                            <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-
-                    <!-- service item begin -->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
-                            data-wow-delay=".6s">
-                            <img src="{{ asset('assets/images/services/4.webp') }}" class="hover-scale-1-1 w-100"
-                                alt="">
-                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">
-                                    পরীক্ষিত ও যাচাইকৃত ব্যবহৃত গাড়ি। প্রতিটি গাড়ির পূর্ণ রিপোর্ট প্রদান করা হয়।
-                                </div>
-                                <a class="btn-main fx-slide" href="{{ route('service.four') }}"><span>বিস্তারিত জানুন
-                                    </span></a>
-                            </div>
-                            <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">04</h3>
-                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">ব্যবহৃত গাড়ি কেনা/বিক্রি</h4>
-                            </div>
-                            <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-
-                    <!-- service item begin -->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
-                            data-wow-delay=".8s">
-                            <img src="{{ asset('assets/images/services/5.webp') }}" class="hover-scale-1-1 w-100"
-                                alt="">
-                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">
-                                    দক্ষ ড্রাইভার নিয়োগ সেবা—ভেরিফাইড, নিয়মিত মনিটরিংসহ।
-                                </div>
-                                <a class="btn-main fx-slide" href="{{ route('service.five') }}"><span>বিস্তারিত জানুন
-                                    </span></a>
-                            </div>
-                            <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">05</h3>
-                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">খণ্ডকালীন ড্রাইভার নিয়োগ</h4>
-                            </div>
-                            <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-
-                    <!-- service item begin -->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
-                            data-wow-delay="1.0s">
-                            <img src="{{ asset('assets/images/services/6.webp') }}" class="hover-scale-1-1 w-100"
-                                alt="">
-                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                <div class="mb-3">
-                                    আপনার যেকোনো প্রশ্ন বা সার্ভিস বুকিংয়ের জন্য আমাদের সাথে কথা বলুন।
-                                </div>
-                                <a class="btn-main fx-slide" href="{{ route('service.six') }}"><span>বিস্তারিত জানুন
-                                    </span></a>
-                            </div>
-                            <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">06</h3>
-                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
-                                <h4 class="mb-3">যোগাযোগ করুন</h4>
-                            </div>
-                            <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
-                        </div>
-                    </div>
-                    <!-- service item end -->
-                </div>
-
             </div>
-        </section>
+        </div>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="swiper-inner" data-bgimage="url({{ asset('assets/images/slider/1.webp') }})">
+                        <div class="gradient-edge-top h-20 op-5"></div>
+                        <div class="gradient-edge-bottom h-50"></div>
+                        <div class="sw-overlay op-6"></div>
+                    </div>
+                </div>
+
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="swiper-inner" data-bgimage="url({{ asset('assets/images/slider/2.webp') }})">
+                        <div class="gradient-edge-top h-20 op-5"></div>
+                        <div class="gradient-edge-bottom h-50"></div>
+                        <div class="sw-overlay op-6"></div>
+                    </div>
+                </div>
+
+                <!-- Slides (example commented)
+                <div class="swiper-slide">
+                    <div class="swiper-inner" data-bgimage="url({{ asset('assets/images/slider/3.webp') }})">
+                        <div class="gradient-edge-top h-20 op-5"></div>
+                        <div class="gradient-edge-bottom h-50"></div>
+                        <div class="sw-overlay op-6"></div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-0">
+    <div class="container relative z-1">
+        <div class="row g-4 gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="row g-4">
+                    <div class="col-sm-6">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="rounded-1 overflow-hidden wow zoomIn">
+                                    <img src="{{ asset('assets/images/misc/p1.webp') }}" class="w-100 wow scaleIn" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="row g-4">
+                            <div class="spacer-single sm-hide"></div>
+                            <div class="col-lg-12">
+                                <div class="rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
+                                    <img src="{{ asset('assets/images/misc/p2.webp') }}" class="w-100 wow scaleIn"
+                                         alt="" data-wow-delay=".3s">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="subtitle wow fadeInUp" data-wow-delay=".2s">About Us</div>
+                <h2 class="wow fadeInUp" data-wow-delay=".4s">ভেতরে ও বাইরে স্থায়ী উজ্জ্বলতা ফিরিয়ে আনি</h2>
+                <p class="wow fadeInUp" data-wow-delay=".6s">
+                    শহরের কোলাহল যেন সবসময় গাড়ির ওপরই পড়ে—ধুলো, ময়লা, স্ক্র্যাচ, অক্সিডেশন।
+                    গাড়িয়ালে আমরা আপনার গাড়ির ভেতর–বাইরের সম্পূর্ণ ডিটেইলিং থেকে শুরু করে পেইন্ট প্রোটেকশন পর্যন্ত সবকিছু
+                    করি আধুনিক প্রযুক্তি ও দক্ষ টেকনিশিয়ানদের মাধ্যমে।
+                    আপনার গাড়ির আসল সৌন্দর্য ফিরিয়ে আনা–ই আমাদের মূল লক্ষ্য।
+                </p>
+                <a class="btn-main fx-slide wow fadeInUp" href="{{ route('service') }}" data-wow-delay=".6s">
+                    <span>Read More</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="spacer-double"></div>
+
+        <div class="row g-4">
+            <div class="col-md-3 col-6">
+                <div class="de_count text-center wow fadeInRight" data-wow-delay=".0s">
+                    <i class="id-color fs-40 d-inline-block mb-3 icofont-briefcase-2"></i>
+                    <h3 class="fs-40 mb-0 lh-1-1">
+                        <span class="timer" data-to="65250" data-speed="3000">0</span>+
+                    </h3>
+                    Hours of Works
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <div class="de_count text-center wow fadeInRight" data-wow-delay=".2s">
+                    <i class="id-color fs-40 d-inline-block mb-3 icofont-thumbs-up"></i>
+                    <h3 class="fs-40 mb-0 lh-1-1">
+                        <span class="timer" data-to="23160" data-speed="3000">0</span>+
+                    </h3>
+                    Happy Customers
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <div class="de_count text-center wow fadeInRight" data-wow-delay=".4s">
+                    <i class="id-color fs-40 d-inline-block mb-3 icofont-users-alt-3"></i>
+                    <h3 class="fs-40 mb-0 lh-1-1">
+                        <span class="timer" data-to="1500" data-speed="3000">0</span>+
+                    </h3>
+                    Experienced Workers
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <div class="de_count text-center wow fadeInRight" data-wow-delay=".6s">
+                    <i class="id-color fs-40 d-inline-block mb-3 icofont-badge"></i>
+                    <h3 class="fs-40 mb-0 lh-1-1">
+                        <span class="timer" data-to="20" data-speed="3000">0</span>+
+                    </h3>
+                    Years of Experience
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-80 jarallax" aria-label="section">
+    <img src="{{ asset('assets/images/background/3.webp') }}" class="jarallax-img" alt="">
+    <div class="gradient-edge-top"></div>
+    <div class="sw-overlay"></div>
+    <div class="container relative z-2">
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-10">
+                <img src="{{ asset('assets/images/misc/c1.webp') }}" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark-2">
+    <div class="container">
+        <div class="row g-4 justify-content-center mb-2">
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <div class="subtitle">Welcome to Garial</div>
+                    <h2>গাড়িয়ালের সেবা</h2>
+                    <p>
+                        গাড়ির অভ্যন্তরীণ পরিবেশ থেকে শুরু করে দীর্ঘস্থায়ী সিরামিক আবরণ পর্যন্ত, আমরা আপনার
+                        গাড়িটিকে নিখুঁতভাবে ঠিক করি এবং পুনরুজ্জীবিত করি।
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <!-- service item begin -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
+                     data-wow-delay=".0s">
+                    <img src="{{ asset('assets/images/services/1.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                        <div class="mb-3">
+                            আপনার গাড়ির মেকানিক্যাল, ইলেকট্রিক্যাল এবং বডি-সংক্রান্ত সব কাজ দক্ষ টেকনিশিয়ানদের
+                            তত্ত্বাবধানে করা হয়।
+                        </div>
+                        <a class="btn-main fx-slide" href="{{ route('service.one') }}">
+                            <span>বিস্তারিত জানুন</span>
+                        </a>
+                    </div>
+                    <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">01</h3>
+                    <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                        <h4 class="mb-3">ওয়ার্কশপ</h4>
+                    </div>
+                    <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item begin -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
+                     data-wow-delay=".2s">
+                    <img src="{{ asset('assets/images/services/2.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                        <div class="mb-3">
+                            সাশ্রয়ী ভাড়া, নিরাপদ যাত্রা ও বিভিন্ন মডেলের নির্ভরযোগ্য গাড়ি—চাহিদা অনুযায়ী সেবা।
+                        </div>
+                        <a class="btn-main fx-slide" href="{{ route('service.two') }}">
+                            <span>বিস্তারিত জানুন</span>
+                        </a>
+                    </div>
+                    <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">02</h3>
+                    <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                        <h4 class="mb-3">রেন্ট এ কার</h4>
+                    </div>
+                    <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item begin -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
+                     data-wow-delay=".4s">
+                    <img src="{{ asset('assets/images/services/3.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                        <div class="mb-3">
+                            প্রশিক্ষিত ইনস্ট্রাক্টর, নিয়মিত ক্লাস এবং সম্পূর্ণ ড্রাইভিং শিক্ষা—লেডিজ ও জেন্টসের জন্য
+                            আলাদা ব্যাচ।
+                        </div>
+                        <a class="btn-main fx-slide" href="{{ route('service.three') }}">
+                            <span>বিস্তারিত জানুন</span>
+                        </a>
+                    </div>
+                    <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">03</h3>
+                    <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                        <h4 class="mb-3">ড্রাইভিং প্রশিক্ষণ</h4>
+                    </div>
+                    <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item begin -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
+                     data-wow-delay=".6s">
+                    <img src="{{ asset('assets/images/services/4.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                        <div class="mb-3">
+                            পরীক্ষিত ও যাচাইকৃত ব্যবহৃত গাড়ি। প্রতিটি গাড়ির বিস্তারিত রিপোর্ট প্রদান করা হয়।
+                        </div>
+                        <a class="btn-main fx-slide" href="{{ route('service.four') }}">
+                            <span>বিস্তারিত জানুন</span>
+                        </a>
+                    </div>
+                    <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">04</h3>
+                    <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                        <h4 class="mb-3">ব্যবহৃত গাড়ি কেনা/বিক্রি</h4>
+                    </div>
+                    <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item begin -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
+                     data-wow-delay=".8s">
+                    <img src="{{ asset('assets/images/services/5.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                        <div class="mb-3">
+                            দক্ষ ড্রাইভার নিয়োগ সেবা—ভেরিফাইড ও নিয়মিত মনিটরিংসহ।
+                        </div>
+                        <a class="btn-main fx-slide" href="{{ route('service.five') }}">
+                            <span>বিস্তারিত জানুন</span>
+                        </a>
+                    </div>
+                    <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">05</h3>
+                    <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                        <h4 class="mb-3">খণ্ডকালীন ড্রাইভার নিয়োগ</h4>
+                    </div>
+                    <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item begin -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
+                     data-wow-delay="1.0s">
+                    <img src="{{ asset('assets/images/services/6.webp') }}" class="hover-scale-1-1 w-100" alt="">
+                    <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                        <div class="mb-3">
+                            আপনার যেকোনো প্রশ্ন বা সার্ভিস বুকিংয়ের জন্য আমাদের সঙ্গে সরাসরি কথা বলুন।
+                        </div>
+                        <a class="btn-main fx-slide" href="{{ route('service.six') }}">
+                            <span>বিস্তারিত জানুন</span>
+                        </a>
+                    </div>
+                    <h3 class="abs fs-32 lh-1 p-4 top-0 start-0">06</h3>
+                    <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                    <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                        <h4 class="mb-3">যোগাযোগ করুন</h4>
+                    </div>
+                    <div class="gradient-edge-bottom color abs w-100 h-40 bottom-0"></div>
+                </div>
+            </div>
+            <!-- service item end -->
+        </div>
+
+    </div>
+</section>
+
 
         <section class="bg-dark-2 pt-0" aria-label="section">
             <div class="container">
