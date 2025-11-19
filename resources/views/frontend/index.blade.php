@@ -18,7 +18,7 @@
                                 <div class="sw-text-wrapper">
                                     <div class="subtitle wow fadeInUp">গাড়ির বিস্তারিত পরিষেবা</div>
                                     <h1 class="fs-72 fs-xs-10vw text-uppercase wow fadeInUp">
-                                        কম খরচে<span class="id-color">প্রিমিয়াম কেয়ার—সেরা সার্ভিস,</span> সবসময়।
+                                        কম খরচে <span class="id-color">প্রিমিয়াম কেয়ার—সেরা সার্ভিস,</span> সবসময়।
                                     </h1>
                                 </div>
                             </div>
