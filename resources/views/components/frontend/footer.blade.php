@@ -21,14 +21,16 @@
                  <div class="row">
                      <div class="col-lg-5">
                          <div class="widget">
-                             <h5>Company</h5>
+                             <h5>Important</h5>
                              <ul>
-                                 <li><a href="index.html">Home</a></li>
-                                 <li><a href="services.html">Our Services</a></li>
-                                 <li><a href="gallery.html">Gallery</a></li>
-                                 <li><a href="about.html">About Us</a></li>
-                                 <li><a href="blog.html">Blog</a></li>
-                                 <li><a href="contact.html">Contact</a></li>
+                                 <li><a class="menu-item" href="{{ route('home') }}">Home</a>
+                             </li>
+                             <li><a class="menu-item" href="{{ route('service') }}">Services</a>
+
+                             </li>
+                             <li><a class="menu-item" href="{{ route('service') }}">Blog</a></li>
+                             <li><a class="menu-item" href="{{ route('service') }}">Workshop</a>
+                             </li>
                              </ul>
                          </div>
                      </div>
@@ -37,13 +39,13 @@
                          <div class="widget">
                              <h5>Our Services</h5>
                              <ul>
-                                 <li><a href="#">Exterior Hand Wash & Wax</a></li>
-                                 <li><a href="#">Interior Deep Cleaning</a></li>
-                                 <li><a href="#">Paint Correction</a></li>
-                                 <li><a href="#">Ceramic Coating Protection</a></li>
-                                 <li><a href="#">Engine Bay Detailing</a></li>
-                                 <li><a href="#">Headlight Restoration</a></li>
-                             </ul>
+                                     <li><a href="{{ route('service.one') }}">Workshop</a></li>
+                                     <li><a href="{{ route('service.two') }}">Rent a Car</a></li>
+                                     <li><a href="{{ route('service.three') }}">Driving Training</a></li>
+                                     <li><a href="{{ route('service.four') }}">Buy and Sell</a></li>
+                                     <li><a href="{{ route('service.five') }}">Part Time Driver</a></li>
+                                     <li><a href="{{ route('service.six') }}">Contact Us</a></li>
+                                 </ul>
                          </div>
                      </div>
                  </div>
@@ -56,21 +58,21 @@
                      <div class="fw-bold text-white">
                          <i class="icofont-location-pin me-2 id-color"></i>Head Office
                      </div>
-                     Plot # 77-78 Road # 9 Rupnagar Mirpur-2
+                     4/1, Glass Factory, Bosila Road, Mohammadpur Bus Stand, Mohammadpur, Dhaka, Bangladesh
 
                      <div class="spacer-20"></div>
 
                      <div class="fw-bold text-white">
                          <i class="icofont-phone me-2 id-color"></i>Call Us
                      </div>
-                     01991237651
+                     +880 1715-949457
 
                      <div class="spacer-20"></div>
 
                      <div class="fw-bold text-white">
                          <i class="icofont-envelope me-2 id-color"></i>Email Us
                      </div>
-                     info@ridgebenit.com
+                     garial.net@gmail.com
                  </div>
              </div>
          </div>
@@ -84,10 +86,10 @@
                          <div class="de-flex-col">
                              &copy; 2025 - Garial by Ridgeben IT Solutions
                          </div>
-                         <ul class="menu-simple">
+                         {{-- <ul class="menu-simple">
                              <li><a href="#">Terms &amp; Conditions</a></li>
                              <li><a href="#">Privacy Policy</a></li>
-                         </ul>
+                         </ul> --}}
                      </div>
                  </div>
              </div>

@@ -43,19 +43,19 @@
 
             <h5>Our Services</h5>
             <ul class="ul-check">
-                <li><a href="#">Exterior Hand Wash & Wax</a></li>
-                <li><a href="#">Interior Deep Cleaning</a></li>
-                <li><a href="#">Paint Correction</a></li>
-                <li><a href="#">Ceramic Coating Protection</a></li>
-                <li><a href="#">Engine Bay Detailing</a></li>
-                <li><a href="#">Headlight Restoration</a></li>
+                 <li><a href="{{ route('service.one') }}">Workshop</a></li>
+                                     <li><a href="{{ route('service.two') }}">Rent a Car</a></li>
+                                     <li><a href="{{ route('service.three') }}">Driving Training</a></li>
+                                     <li><a href="{{ route('service.four') }}">Buy and Sell</a></li>
+                                     <li><a href="{{ route('service.five') }}">Part Time Driver</a></li>
+                                     <li><a href="{{ route('service.six') }}">Contact Us</a></li>
             </ul>
 
             <div class="spacer-30-line"></div>
 
             <h5>Contact Us</h5>
             <div><i class="icofont-clock-time me-2 op-5"></i>Monday - Friday 08.00 - 18.00</div>
-            <div><i class="icofont-location-pin me-2 op-5"></i>Plot # 77-78 Road # 9 Rupnagar Mirpur-2 </div>
+            <div><i class="icofont-location-pin me-2 op-5"></i>4/1, Glass Factory, Bosila Road, Mohammadpur Bus Stand, Mohammadpur, Dhaka, Bangladesh</div>
             <div><i class="icofont-envelope me-2 op-5"></i>support@garial.com</div>
 
             <div class="spacer-30-line"></div>

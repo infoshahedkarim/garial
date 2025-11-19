@@ -36,6 +36,10 @@ Route::get('/contact', function () {
     return view('frontend.service.six');
 })->name('service.six');
 
+Route::get('/appointment', function () {
+    return view('frontend.appointment');
+})->name('appointment');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
