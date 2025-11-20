@@ -29,10 +29,13 @@
                 <div class="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
                     <a href="{{ route('home') }}" class="z-20 flex flex-col items-center gap-2 font-medium lg:hidden" wire:navigate>
                         <span class="flex h-9 w-9 items-center justify-center rounded-md">
-                            <x-app-logo-icon class="size-9 fill-current text-black dark:text-white" />
+                            <a href="{{route('home')}}">
+                                 <img class="logo-main" src="{{asset('assets/images/logo-white.webp')}}" alt="">
+                                 <img class="logo-mobile" src="{{asset('assets/images/logo-mobile.webp')}}" alt="">
+                             </a>
                         </span>
 
-                        <span class="sr-only">{{ config('app.name', 'Laravel') }}</span>
+                        <span class="sr-only">{{ config('app.name', 'RITS') }}</span>
                     </a>
                     {{ $slot }}
                 </div>

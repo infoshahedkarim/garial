@@ -8,10 +8,13 @@
             <div class="flex w-full max-w-md flex-col gap-6">
                 <a href="{{ route('home') }}" class="flex flex-col items-center gap-2 font-medium" wire:navigate>
                     <span class="flex h-9 w-9 items-center justify-center rounded-md">
-                        <x-app-logo-icon class="size-9 fill-current text-black dark:text-white" />
+                        <a href="{{route('home')}}">
+                                 <img class="logo-main" src="{{asset('assets/images/logo-white.webp')}}" alt="">
+                                 <img class="logo-mobile" src="{{asset('assets/images/logo-mobile.webp')}}" alt="">
+                             </a>
                     </span>
 
-                    <span class="sr-only">{{ config('app.name', 'Laravel') }}</span>
+                    <span class="sr-only">{{ config('app.name', 'RITS') }}</span>
                 </a>
 
                 <div class="flex flex-col gap-6">

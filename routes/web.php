@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 use Livewire\Volt\Volt;
+use App\Http\Controllers\Front\AppointmentController;
+use App\Http\Controllers\Back\AppointmentController as BackAppointmentController;
+
+
+
 
 Route::get('/', function () {
     return view('frontend.index');
@@ -40,9 +45,22 @@ Route::get('/appointment', function () {
     return view('frontend.appointment');
 })->name('appointment');
 
+Route::get('/appointment', [AppointmentController::class, 'index'])->name('appointment');
+Route::post('/appointment', [AppointmentController::class, 'store'])->name('appointment.store');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
+
+Route::prefix('admin')->as('back.')->middleware(['auth', 'verified'])->group(function () {
+
+    // Appointment management (index, show, update status, delete)
+    Route::get('appointments', [BackAppointmentController::class, 'index'])->name('appointments.index');
+    Route::get('appointments/{appointment}', [BackAppointmentController::class, 'show'])->name('appointments.show');
+    Route::put('appointments/{appointment}', [BackAppointmentController::class, 'update'])->name('appointments.update');
+    Route::delete('appointments/{appointment}', [BackAppointmentController::class, 'destroy'])->name('appointments.destroy');
+
+});
 
 Route::middleware(['auth'])->group(function () {
     Route::redirect('settings', 'settings/profile');
