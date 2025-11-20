@@ -1,13 +1,16 @@
 <x-layouts.app :title="__('Appointment #'.$appointment->id)">
     <div class="flex h-full w-full flex-1 flex-col gap-4 rounded-xl">
-        <div class="relative h-full flex-1 overflow-hidden rounded-xl border border-neutral-200 bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-950">
+        <div class="relative h-full flex-1 overflow-hidden rounded-xl border border-neutral-200 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-950">
 
             <div class="flex h-full w-full items-stretch justify-center">
                 {{-- Centered outer card --}}
-                <div class="my-6 w-full max-w-5xl rounded-2xl border border-neutral-300 bg-white shadow-md dark:border-neutral-700 dark:bg-neutral-900">
+                <div
+                    class="my-6 w-full max-w-5xl rounded-2xl border border-neutral-300 bg-white text-neutral-900 shadow-md
+                           dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-50"
+                >
 
                     {{-- Header --}}
-                    <div class="flex flex-col gap-3 border-b border-neutral-200 px-4 py-4 dark:border-neutral-800 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+                    <div class="flex flex-col gap-3 border-b border-neutral-200 px-4 py-4 dark:border-neutral-700 sm:flex-row sm:items-center sm:justify-between sm:px-6">
                         <div>
                             <h2 class="text-lg font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
                                 Appointment #{{ $appointment->id }}
@@ -18,7 +21,7 @@
                         </div>
 
                         <a href="{{ route('back.appointments.index') }}"
-                           class="inline-flex items-center gap-1 rounded-full border border-neutral-300 bg-white px-3 py-1.5 text-xs font-medium text-neutral-800 shadow-sm hover:bg-neutral-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-50 dark:border-neutral-600 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-800 dark:focus-visible:ring-neutral-200 dark:focus-visible:ring-offset-neutral-900"
+                           class="inline-flex items-center gap-1 rounded-full border border-neutral-300 bg-white px-3 py-1.5 text-xs font-medium text-neutral-800 shadow-sm hover:bg-neutral-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-50 dark:border-neutral-600 dark:bg-neutral-800 dark:text-neutral-50 dark:hover:bg-neutral-700 dark:focus-visible:ring-neutral-200 dark:focus-visible:ring-offset-neutral-900"
                            aria-label="Back to appointment list">
                             <span class="text-sm" aria-hidden="true">←</span>
                             <span>Back to list</span>
@@ -28,7 +31,7 @@
                     {{-- Flash + errors --}}
                     <div class="space-y-3 px-4 pt-4 sm:px-6">
                         @if (session('success'))
-                            <div class="rounded-xl border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm text-emerald-900 shadow-sm dark:border-emerald-400 dark:bg-emerald-900 dark:text-emerald-50" role="status">
+                            <div class="rounded-xl border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm text-emerald-900 shadow-sm dark:border-emerald-500 dark:bg-emerald-900 dark:text-emerald-50" role="status">
                                 <div class="flex items-start justify-between gap-3">
                                     <div class="flex items-start gap-2">
                                         <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-700 text-xs font-bold text-white">
@@ -47,7 +50,7 @@
                         @endif
 
                         @if ($errors->any())
-                            <div class="rounded-xl border border-rose-300 bg-rose-50 px-4 py-3 text-sm text-rose-900 shadow-sm dark:border-rose-400 dark:bg-rose-900 dark:text-rose-50" role="alert">
+                            <div class="rounded-xl border border-rose-300 bg-rose-50 px-4 py-3 text-sm text-rose-900 shadow-sm dark:border-rose-500 dark:bg-rose-900 dark:text-rose-50" role="alert">
                                 <div class="flex items-start gap-2">
                                     <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-rose-700 text-xs font-bold text-white">
                                         !
@@ -69,9 +72,9 @@
                             {{-- LEFT: Appointment info + message --}}
                             <div class="space-y-4 lg:col-span-2">
                                 {{-- Appointment information --}}
-                                <section class="rounded-xl border border-neutral-200 bg-neutral-50/90 p-4 shadow-sm dark:border-neutral-800 dark:bg-neutral-900"
+                                <section class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 shadow-sm dark:border-neutral-700 dark:bg-neutral-900"
                                          aria-labelledby="appointment-info-heading">
-                                    <h3 id="appointment-info-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-neutral-300">
+                                    <h3 id="appointment-info-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-700 dark:text-neutral-200">
                                         Appointment Information
                                     </h3>
 
@@ -148,9 +151,9 @@
 
                                 {{-- Customer message --}}
                                 @if ($appointment->message)
-                                    <section class="rounded-xl border border-neutral-200 bg-white p-4 shadow-sm dark:border-neutral-800 dark:bg-neutral-900"
+                                    <section class="rounded-xl border border-neutral-200 bg-white p-4 shadow-sm dark:border-neutral-700 dark:bg-neutral-900"
                                              aria-labelledby="customer-message-heading">
-                                        <h3 id="customer-message-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-neutral-300">
+                                        <h3 id="customer-message-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-700 dark:text-neutral-200">
                                             Customer Message
                                         </h3>
                                         <p class="text-sm leading-relaxed text-neutral-800 dark:text-neutral-100">
@@ -163,9 +166,9 @@
                             {{-- RIGHT: Customer details + actions --}}
                             <div class="space-y-4">
                                 {{-- Customer details --}}
-                                <section class="rounded-xl border border-neutral-200 bg-white p-4 shadow-sm dark:border-neutral-800 dark:bg-neutral-900"
+                                <section class="rounded-xl border border-neutral-200 bg-white p-4 shadow-sm dark:border-neutral-700 dark:bg-neutral-900"
                                          aria-labelledby="customer-details-heading">
-                                    <h3 id="customer-details-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-neutral-300">
+                                    <h3 id="customer-details-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-700 dark:text-neutral-200">
                                         Customer Details
                                     </h3>
 
@@ -186,9 +189,9 @@
                                 </section>
 
                                 {{-- Update status --}}
-                                <section class="rounded-xl border border-neutral-200 bg-neutral-50/90 p-4 shadow-sm dark:border-neutral-800 dark:bg-neutral-900"
+                                <section class="rounded-xl border border-neutral-200 bg-neutral-50 p-4 shadow-sm dark:border-neutral-700 dark:bg-neutral-900"
                                          aria-labelledby="update-status-heading">
-                                    <h3 id="update-status-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-neutral-300">
+                                    <h3 id="update-status-heading" class="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-700 dark:text-neutral-200">
                                         Update Status
                                     </h3>
 
@@ -203,7 +206,7 @@
                                             <select
                                                 name="status"
                                                 id="status"
-                                                class="block w-full rounded-lg border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-100 dark:focus-visible:ring-neutral-200 dark:focus-visible:ring-offset-neutral-900"
+                                                class="block w-full rounded-lg border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-50 dark:border-neutral-600 dark:bg-neutral-900 dark:text-neutral-50 dark:focus-visible:ring-neutral-200 dark:focus-visible:ring-offset-neutral-900"
                                             >
                                                 <option value="pending"   {{ $appointment->status == 'pending' ? 'selected' : '' }}>Pending</option>
                                                 <option value="confirmed" {{ $appointment->status == 'confirmed' ? 'selected' : '' }}>Confirmed</option>
@@ -222,7 +225,7 @@
                                 </section>
 
                                 {{-- Danger zone --}}
-                                <section class="rounded-xl border border-rose-200 bg-rose-50/90 p-4 shadow-sm dark:border-rose-500 dark:bg-rose-950"
+                                <section class="rounded-xl border border-rose-200 bg-rose-50 p-4 shadow-sm dark:border-rose-600 dark:bg-rose-950"
                                          aria-labelledby="danger-zone-heading">
                                     <h3 id="danger-zone-heading" class="mb-2 text-sm font-semibold uppercase tracking-wide text-rose-800 dark:text-rose-100">
                                         Danger Zone
@@ -238,7 +241,7 @@
 
                                         <button
                                             type="submit"
-                                            class="inline-flex w-full items-center justify-center rounded-lg border border-rose-300 bg-transparent px-3 py-2 text-sm font-medium text-rose-800 hover:bg-rose-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-600 focus-visible:ring-offset-2 focus-visible:ring-offset-rose-50 dark:border-rose-400 dark:text-rose-100 dark:hover:bg-rose-900/70 dark:focus-visible:ring-rose-300 dark:focus-visible:ring-offset-rose-950"
+                                            class="inline-flex w-full items-center justify-center rounded-lg border border-rose-300 bg-transparent px-3 py-2 text-sm font-medium text-rose-800 hover:bg-rose-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-600 focus-visible:ring-offset-2 focus-visible:ring-offset-rose-50 dark:border-rose-500 dark:text-rose-100 dark:hover:bg-rose-900/70 dark:focus-visible:ring-rose-400 dark:focus-visible:ring-offset-rose-950"
                                         >
                                             Delete Appointment
                                         </button>
