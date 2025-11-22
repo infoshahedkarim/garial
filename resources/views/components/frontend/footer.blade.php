@@ -2,7 +2,7 @@
      <div class="container">
          <div class="row gx-5">
              <div class="col-lg-4 col-sm-6">
-                 <img src="{{asset('assets/images/logo-white.webp')}}" class="logo-footer" alt="">
+                 <img src="{{asset('assets/images/logo-white.png')}}" style="width: 160px" class="logo-footer" alt="">
                  <div class="spacer-20"></div>
                  <p>গারিয়ালে, আমরা পেশাদার, উচ্চমানের গাড়ির ডিটেইলিং পরিষেবা প্রদানের জন্য নিবেদিত প্রাণ। উন্নত সিরামিক
                      আবরণ পর্যন্ত, আমরা আপনার গাড়ির মূল্য সংরক্ষণ এবং উপাদান থেকে রক্ষা করার সময় এটিকে সর্বোত্তম

@@ -43,7 +43,7 @@
                                 <div class="d-flex">
                                     <div class="topbar-widget me-5"><a href="#"><img src="images/svg-white/phone.svg" class="" alt="">Call us: +1 800 987 654</a></div>
                                     <div class="topbar-widget"><a href="#"><img src="images/svg-white/envelope.svg" class="" alt="">Message us: support@autodetail.com</a></div>
-                                </div>                 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-main" src="images/logo-white.png" alt="" >
                                         <img class="logo-mobile" src="images/logo-mobile.webp" alt="" >
                                     </a>
                                 </div>
@@ -187,7 +187,7 @@
                                 <h2>Premium Car Detailing</h2>
                                 <p>From deep interior cleaning to long-lasting ceramic coating, we restore and protect your vehicle with precision, care, and a commitment to perfection.</p>
                             </div>
-                        </div>                                       
+                        </div>
                     </div>
 
                     <div class="row g-4">
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
 
@@ -362,13 +362,13 @@
                                                 <img src="images/misc/p1.webp" class="w-100 wow scaleIn" alt="">
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="row g-4">
                                         <div class="spacer-single sm-hide"></div>
-                                        
+
                                         <div class="col-lg-12">
                                            <div class=" rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
                                                 <img src="images/misc/p2.webp" class="w-100 wow scaleIn" alt="" data-wow-delay=".3s">
@@ -378,7 +378,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-lg-6">
                             <div class="subtitle wow fadeInUp" data-wow-delay=".2s">About Us</div>
                             <h2 class="wow fadeInUp" data-wow-delay=".4s">Restoring Lasting Shine, Inside and Out</h2>
@@ -426,7 +426,7 @@
                     </div>
                 </div>
 
-            </section>            
+            </section>
 
             <section>
                 <div class="container">
@@ -771,7 +771,7 @@
                                     </div>
                                     <div class="accordion-section-content" id="accordion-a2">
                                         It depends on your usage, but most experts recommend detailing every 3–6 months to maintain your car’s appearance and protect its value.
-                                    </div>  
+                                    </div>
 
                                     <div class="accordion-section-title" data-tab="#accordion-a3">
                                         What’s included in a full detailing service?
@@ -796,7 +796,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
@@ -897,7 +897,7 @@
           <div class="container">
             <div class="row gx-5">
               <div class="col-lg-4 col-sm-6">
-                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <img src="images/logo-white.png" class="logo-footer" alt="">
                 <div class="spacer-20"></div>
                 <p>At AutoDetail, we’re dedicated to providing professional, high-quality car detailing services. From routine hand washes to advanced ceramic coatings, we help keep your vehicle looking its best while preserving its value and protecting it from the elements.</p>
 
@@ -999,7 +999,7 @@
         </div>
 
         <div id="extra-content">
-            <img src="images/logo-white.webp" class="w-150px" alt="">
+            <img src="images/logo-white.png" class="w-150px" alt="">
 
             <div class="spacer-30-line"></div>
 

@@ -42,7 +42,7 @@
                                 <div class="d-flex">
                                     <div class="topbar-widget me-5"><a href="#"><img src="images/svg-white/phone.svg" class="" alt="">Call us: +1 800 987 654</a></div>
                                     <div class="topbar-widget"><a href="#"><img src="images/svg-white/envelope.svg" class="" alt="">Message us: support@autodetail.com</a></div>
-                                </div>                 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-main" src="images/logo-white.png" alt="" >
                                         <img class="logo-mobile" src="images/logo-mobile.webp" alt="" >
                                     </a>
                                 </div>
@@ -125,7 +125,7 @@
                                     <div id="btn-cart" class="de-icon-counter">
                                         <div class="d-counter">5</div>
                                         <img src="images/ui/cart.svg" class="" alt="">
-                                    </div>            
+                                    </div>
 
                                     <span id="menu-btn"></span>
                                 </div>
@@ -153,14 +153,14 @@
                             <ul class="crumb wow fadeInUp">
                                 <li><a href="index.html">Home</a></li>
                                 <li class="active">Shop</li>
-                            </ul>   
+                            </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="sw-overlay"></div>
             </section>
-             
+
             <section>
                 <div class="container">
                     <div class="row g-4">
@@ -318,7 +318,7 @@
                                             <div class="atr__opt-1 active" data-image="images/shop/products/soap-3a.webp">3.78 L</div>
                                             <div class="atr__opt-2" data-image="images/shop/products/soap-3b.webp">473 mL</div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -355,7 +355,7 @@
                                         <div class="atr__main-price">
                                             $11.99
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -400,7 +400,7 @@
                                             <div class="atr__color-3" data-image="images/shop/products/towel-1d.webp"><span data-bgcolor="#e44e83"></span></div>
                                             <div class="atr__color-3" data-image="images/shop/products/towel-1e.webp"><span data-bgcolor="#f1d857"></span></div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -436,7 +436,7 @@
                                         <div class="atr__main-price">
                                              $7.49
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -473,10 +473,10 @@
                                         <div class="atr__main-price">
                                              $29.95
                                         </div>
-                                        
+
                                     </div>
                                 </div>
-                                <!-- product item end -->   
+                                <!-- product item end -->
 
                                 <!-- product item begin -->
                                 <div class="col-xl-3 col-lg-4 col-md-6">
@@ -510,7 +510,7 @@
                                         <div class="atr__main-price">
                                             $6.99
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -547,7 +547,7 @@
                                         <div class="atr__main-price">
                                              $59.95
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -584,7 +584,7 @@
                                         <div class="atr__main-price">
                                             $129
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -621,7 +621,7 @@
                                         <div class="atr__main-price">
                                             $18.95
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -658,7 +658,7 @@
                                         <div class="atr__main-price">
                                             $6.49
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -695,7 +695,7 @@
                                         <div class="atr__main-price">
                                             $24.99
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -732,7 +732,7 @@
                                         <div class="atr__main-price">
                                             $2.99
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <!-- product item end -->
@@ -762,11 +762,11 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
 
-                        
+
 
         </div>
         <!-- content end -->
@@ -776,7 +776,7 @@
           <div class="container">
             <div class="row gx-5">
               <div class="col-lg-4 col-sm-6">
-                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <img src="images/logo-white.png" class="logo-footer" alt="">
                 <div class="spacer-20"></div>
                 <p>At AutoDetail, we’re dedicated to providing professional, high-quality car detailing services. From routine hand washes to advanced ceramic coatings, we help keep your vehicle looking its best while preserving its value and protecting it from the elements.</p>
 
@@ -878,13 +878,13 @@
         </div>
 
         <div id="extra-content">
-            <img src="images/logo-white.webp" class="w-150px" alt="">
+            <img src="images/logo-white.png" class="w-150px" alt="">
 
             <div class="spacer-30-line"></div>
 
             <h5 class="mb-3">Your Cart</h5>
-            
-            <div class="cart-items">                
+
+            <div class="cart-items">
                 <!-- cart item begin -->
                 <div class="de__cart">
                     <div class="de__cart-item justify-content-between">
@@ -894,10 +894,10 @@
                             <img src="images/shop/products/soap-3a.webp" alt="">
                             <div class="d-info">
                                 <div>
-                                    <h4>Nanoskin NANO SUDS Wash & Shine Shampoo</h4>                                
-                                    <span class="d-price">$32.99</span> 
-                                </div>         
-                            </div>  
+                                    <h4>Nanoskin NANO SUDS Wash & Shine Shampoo</h4>
+                                    <span class="d-price">$32.99</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="de-number">
                             <span class="d-minus">-</span>
@@ -905,7 +905,7 @@
                             <span class="d-plus">+</span>
                         </div>
                     </div>
-                </div>   
+                </div>
                 <!-- cart item end -->
 
                 <!-- cart item begin -->
@@ -917,10 +917,10 @@
                             <img src="images/shop/products/soap-1a.webp" alt="">
                             <div class="d-info">
                                 <div>
-                                    <h4>Meguiar’s Gold Class Car Wash Shampoo</h4>                                
-                                    <span class="d-price">$11.99</span> 
-                                </div>         
-                            </div>  
+                                    <h4>Meguiar’s Gold Class Car Wash Shampoo</h4>
+                                    <span class="d-price">$11.99</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="de-number">
                             <span class="d-minus">-</span>
@@ -928,7 +928,7 @@
                             <span class="d-plus">+</span>
                         </div>
                     </div>
-                </div>   
+                </div>
                 <!-- cart item end -->
 
                 <!-- cart item begin -->
@@ -940,10 +940,10 @@
                             <img src="images/shop/products/towel-1c.webp" alt="">
                             <div class="d-info">
                                 <div>
-                                    <h4>Premium Microfiber Cleaning Towel</h4>                                
-                                    <span class="d-price">$7.49</span> 
-                                </div>         
-                            </div>  
+                                    <h4>Premium Microfiber Cleaning Towel</h4>
+                                    <span class="d-price">$7.49</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="de-number">
                             <span class="d-minus">-</span>
@@ -951,7 +951,7 @@
                             <span class="d-plus">+</span>
                         </div>
                     </div>
-                </div>   
+                </div>
                 <!-- cart item end -->
 
                 <!-- cart item begin -->
@@ -963,10 +963,10 @@
                             <img src="images/shop/products/wax-1a.webp" alt="">
                             <div class="d-info">
                                 <div>
-                                    <h4>Turtle Wax Original Hard Shell Shine Car Wax</h4>                                
-                                    <span class="d-price">$7.49</span> 
-                                </div>         
-                            </div>  
+                                    <h4>Turtle Wax Original Hard Shell Shine Car Wax</h4>
+                                    <span class="d-price">$7.49</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="de-number">
                             <span class="d-minus">-</span>
@@ -974,7 +974,7 @@
                             <span class="d-plus">+</span>
                         </div>
                     </div>
-                </div>   
+                </div>
                 <!-- cart item end -->
 
                 <!-- cart item begin -->
@@ -986,10 +986,10 @@
                             <img src="images/shop/products/soap-2a.webp" alt="">
                             <div class="d-info">
                                 <div>
-                                    <h4>3D Pink Car Soap – pH Balanced Formula</h4>                                
-                                    <span class="d-price">$29.95</span> 
-                                </div>         
-                            </div>  
+                                    <h4>3D Pink Car Soap – pH Balanced Formula</h4>
+                                    <span class="d-price">$29.95</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="de-number">
                             <span class="d-minus">-</span>
@@ -997,7 +997,7 @@
                             <span class="d-plus">+</span>
                         </div>
                     </div>
-                </div>   
+                </div>
                 <!-- cart item end -->
 
                 <!-- cart item begin -->
@@ -1009,10 +1009,10 @@
                             <img src="images/shop/products/wax-2a.webp" alt="">
                             <div class="d-info">
                                 <div>
-                                    <h4>Formula 1 Bug & Tar Remover – 16oz</h4>                                
-                                    <span class="d-price">$6.99</span> 
-                                </div>         
-                            </div>  
+                                    <h4>Formula 1 Bug & Tar Remover – 16oz</h4>
+                                    <span class="d-price">$6.99</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="de-number">
                             <span class="d-minus">-</span>
@@ -1020,7 +1020,7 @@
                             <span class="d-plus">+</span>
                         </div>
                     </div>
-                </div>   
+                </div>
                 <!-- cart item end -->
             </div>
 

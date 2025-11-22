@@ -37,7 +37,7 @@
         </div>
 
         <div id="extra-content">
-            <img src="{{ asset('assets/images/logo-white.webp') }}" class="w-150px" alt="">
+            <img src="{{ asset('assets/images/logo-white.png') }}" class="w-150px" alt="">
 
             <div class="spacer-30-line"></div>
 

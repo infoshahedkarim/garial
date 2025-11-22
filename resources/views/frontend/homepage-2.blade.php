@@ -59,7 +59,7 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-main" src="images/logo-white.png" alt="" >
                                         <img class="logo-mobile" src="images/logo-mobile.webp" alt="" >
                                     </a>
                                 </div>
@@ -860,7 +860,7 @@
           <div class="container">
             <div class="row gx-5">
               <div class="col-lg-4 col-sm-6">
-                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <img src="images/logo-white.png" class="logo-footer" alt="">
                 <div class="spacer-20"></div>
                 <p>At AutoDetail, we’re dedicated to providing professional, high-quality car detailing services. From routine hand washes to advanced ceramic coatings, we help keep your vehicle looking its best while preserving its value and protecting it from the elements.</p>
 
@@ -962,7 +962,7 @@
         </div>
 
         <div id="extra-content">
-            <img src="images/logo-white.webp" class="w-150px" alt="">
+            <img src="images/logo-white.png" class="w-150px" alt="">
 
             <div class="spacer-30-line"></div>
 

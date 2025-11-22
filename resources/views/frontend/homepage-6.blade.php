@@ -43,7 +43,7 @@
                                 <div class="d-flex">
                                     <div class="topbar-widget me-5"><a href="#"><img src="images/svg-white/phone.svg" class="" alt="">Call us: +1 800 987 654</a></div>
                                     <div class="topbar-widget"><a href="#"><img src="images/svg-white/envelope.svg" class="" alt="">Message us: support@autodetail.com</a></div>
-                                </div>                 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-main" src="images/logo-white.png" alt="" >
                                         <img class="logo-mobile" src="images/logo-mobile.webp" alt="" >
                                     </a>
                                 </div>
@@ -159,7 +159,7 @@
                             <div class="relative overflow-hidden">
                                 <div class="owl-custom-nav menu-float" data-target="#carousel-6">
                                     <a class="btn-next"></a>
-                                    <a class="btn-prev"></a>                                
+                                    <a class="btn-prev"></a>
                                     <div id="carousel-6" class="owl-single owl-carousel owl-theme">
                                         <!-- item begin -->
                                         <div class="item">
@@ -224,7 +224,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
 
@@ -408,7 +408,7 @@
                 </div>
                 <!-- service item end -->
 
-            </div>            
+            </div>
 
             <section>
                 <div class="container">
@@ -709,7 +709,7 @@
                               <i class="icofont-location-pin me-2 id-color"></i><span>125 Sunset Blvd, Los Angeles, CA</span><br>
                               <i class="icofont-phone me-2 id-color"></i><span>(213) 555-0181</span><br>
                               <i class="icofont-clock-time me-2 id-color me-2 id-color"></i><span>Monday - Friday 08.00 - 18.00</span>
-                            
+
                               <a class="btn-main fx-slide mt-3 w-100" href="appointment.html"><span>Make Appointment</span></a>
                             </div>
                           </div>
@@ -727,7 +727,7 @@
                               <i class="icofont-location-pin me-2 id-color"></i><span>802 Riverfront Drive, Riverside, CA</span><br>
                               <i class="icofont-phone me-2 id-color"></i><span>(951) 555-0264</span><br>
                               <i class="icofont-clock-time me-2 id-color me-2 id-color"></i><span>Monday - Friday 08.00 - 18.00</span>
-                            
+
                               <a class="btn-main fx-slide mt-3 w-100" href="appointment.html"><span>Make Appointment</span></a>
                             </div>
                           </div>
@@ -745,7 +745,7 @@
                               <i class="icofont-location-pin me-2 id-color"></i><span>3300 Silverstone Ave, San Jose, CA</span><br>
                               <i class="icofont-phone me-2 id-color"></i><span>(408) 555-0390</span><br>
                               <i class="icofont-clock-time me-2 id-color me-2 id-color"></i><span>Monday - Friday 08.00 - 18.00</span>
-                            
+
                               <a class="btn-main fx-slide mt-3 w-100" href="appointment.html"><span>Make Appointment</span></a>
                             </div>
                           </div>
@@ -754,7 +754,7 @@
 
                     </div>
 
-                    
+
                 </div>
             </section>
 
@@ -781,7 +781,7 @@
                                     </div>
                                     <div class="accordion-section-content" id="accordion-a2">
                                         It depends on your usage, but most experts recommend detailing every 3–6 months to maintain your car’s appearance and protect its value.
-                                    </div>  
+                                    </div>
 
                                     <div class="accordion-section-title" data-tab="#accordion-a3">
                                         What’s included in a full detailing service?
@@ -806,7 +806,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
@@ -898,7 +898,7 @@
           <div class="container">
             <div class="row gx-5">
               <div class="col-lg-4 col-sm-6">
-                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <img src="images/logo-white.png" class="logo-footer" alt="">
                 <div class="spacer-20"></div>
                 <p>At AutoDetail, we’re dedicated to providing professional, high-quality car detailing services. From routine hand washes to advanced ceramic coatings, we help keep your vehicle looking its best while preserving its value and protecting it from the elements.</p>
 
@@ -1000,7 +1000,7 @@
         </div>
 
         <div id="extra-content">
-            <img src="images/logo-white.webp" class="w-150px" alt="">
+            <img src="images/logo-white.png" class="w-150px" alt="">
 
             <div class="spacer-30-line"></div>
 

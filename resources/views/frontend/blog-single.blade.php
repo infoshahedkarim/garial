@@ -43,7 +43,7 @@
                                 <div class="d-flex">
                                     <div class="topbar-widget me-5"><a href="#"><img src="images/svg-white/phone.svg" class="" alt="">Call us: +1 800 987 654</a></div>
                                     <div class="topbar-widget"><a href="#"><img src="images/svg-white/envelope.svg" class="" alt="">Message us: support@autodetail.com</a></div>
-                                </div>                 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img class="logo-main" src="images/logo-white.webp" alt="" >
+                                        <img class="logo-main" src="images/logo-white.png" alt="" >
                                         <img class="logo-mobile" src="images/logo-mobile.webp" alt="" >
                                     </a>
                                 </div>
@@ -149,7 +149,7 @@
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li class="active">Ceramic Coating Benefits: What Every Car Owner Should Know</li>
-                            </ul>   
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -413,7 +413,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            
+
                             <div class="widget widget_tags">
                                 <h4>Popular Tags</h4>
                                 <ul>
@@ -437,7 +437,7 @@
                         </div>
                     </div>
                 </div>
-            </section>                        
+            </section>
 
         </div>
         <!-- content end -->
@@ -447,7 +447,7 @@
           <div class="container">
             <div class="row gx-5">
               <div class="col-lg-4 col-sm-6">
-                <img src="images/logo-white.webp" class="logo-footer" alt="">
+                <img src="images/logo-white.png" class="logo-footer" alt="">
                 <div class="spacer-20"></div>
                 <p>At AutoDetail, we’re dedicated to providing professional, high-quality car detailing services. From routine hand washes to advanced ceramic coatings, we help keep your vehicle looking its best while preserving its value and protecting it from the elements.</p>
 
@@ -549,7 +549,7 @@
         </div>
 
         <div id="extra-content">
-            <img src="images/logo-white.webp" class="w-150px" alt="">
+            <img src="images/logo-white.png" class="w-150px" alt="">
 
             <div class="spacer-30-line"></div>
 

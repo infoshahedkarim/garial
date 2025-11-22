@@ -31,8 +31,8 @@
                          <!-- logo begin -->
                          <div id="logo">
                              <a href="{{route('home')}}">
-                                 <img class="logo-main" src="{{asset('assets/images/logo-white.webp')}}" alt="">
-                                 <img class="logo-mobile" src="{{asset('assets/images/logo-mobile.webp')}}" alt="">
+                                 <img class="logo-main" src="{{asset('assets/images/logo-white.png')}}" style="width: 140px;" alt="">
+                                 <img class="logo-mobile" src="{{asset('assets/images/logo-white.png')}}" style="width: 140px;" alt="">
                              </a>
                          </div>
                          <!-- logo end -->
