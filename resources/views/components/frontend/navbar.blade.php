@@ -6,7 +6,7 @@
                      <div class="d-flex justify-content-between xs-hide">
                          <div class="d-flex">
                              <div class="topbar-widget"><a href="#"><img src="images/svg-white/bell.svg"
-                                         class="" alt="">GetGet 50% Discount for AutoDetail New Member</a>
+                                         class="" alt="">GetGet 20% Discount for AutoDetail New Member</a>
                              </div>
 
                          </div>
